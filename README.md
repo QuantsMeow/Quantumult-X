@@ -15,7 +15,6 @@ https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/MyQx.c
 https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/AppleAI.list
 
 //Binance
-[Binance](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/Binance.list)
 https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/Binance.list
 
 
