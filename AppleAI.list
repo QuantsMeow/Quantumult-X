@@ -6,10 +6,10 @@
 // 参考：在企业网络上使用 Apple 产品[[https://support.apple.com/zh-cn/101555]]
 // 更新：2025年12月20日21:28:23
 // ==============================
-HOST-SUFFIX,gateway.icloud.com,AppleAI//iCould网关
-HOST-SUFFIX,apple-relay.apple.com,AppleAI//Apple 智能扩展
+HOST-SUFFIX,gateway.icloud.com,AppleAI     //iCould网关
+HOST-SUFFIX,apple-relay.apple.com,AppleAI//     Apple 智能扩展
 HOST-SUFFIX,apple-relay.fastly-edge.com,AppleAI//私有云计算
-HOST-SUFFIX,apple-relay.cloudflare.com, AppleAI//私有云计算
+HOST-SUFFIX,apple-relay.cloudflare.com,AppleAI//私有云计算
 HOST-SUFFIX,guzzoni.apple.com,AppleAI//Siri和听写请求
 HOST-SUFFIX,cp4.cloudflare.com,AppleAI//私有云计算
 HOST-SUFFIX,gspe1-ssl.ls.apple.com,AppleAI//基于网络的地区检测
