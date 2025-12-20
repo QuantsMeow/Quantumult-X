@@ -13,8 +13,13 @@ https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/MyQx.c
 【分流规则】
 //AppleAI（Siri调用GPT） 
 https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/AppleAI.list
- 
- 
+
+//Binance
+[Binance](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/Binance.list)
+https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/Binance.list
+
+
+
 主时间线：
 创建时间：2025年12月20日17:24:54
 上传初始配置：2025年12月20日18:07:03
