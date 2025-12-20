@@ -1,12 +1,18 @@
-# AppleIntelligence分流
-# Update 20251220
-HOST-SUFFIX, gateway.icloud.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.apple.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.fastly-edge.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.cloudflare.com, AppleIntelligence
-HOST-SUFFIX, guzzoni.apple.com, AppleIntelligence
-HOST-SUFFIX, cp4.cloudflare.com, AppleIntelligence
-HOST-SUFFIX, gspe1-ssl.ls.apple.com, AppleIntelligence
-HOST-SUFFIX, smoot.apple.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.akamaized.net, AppleIntelligence
-HOST-SUFFIX, apple-relay.mask.apple-dns.net, AppleIntelligence
+// ==============================
+// 名称：AppleAI
+// 说明：
+//   1.Siri调用ChatGPT所需规则
+//   2.不可使用香港节点
+// 参考：在企业网络上使用 Apple 产品[[https://support.apple.com/zh-cn/101555]]
+// 更新：2025年12月20日21:28:23
+// ==============================
+HOST-SUFFIX, gateway.icloud.com, AppleAI //iCould网关
+HOST-SUFFIX, apple-relay.apple.com, AppleAI //Apple 智能扩展
+HOST-SUFFIX, apple-relay.fastly-edge.com, AppleAI //私有云计算
+HOST-SUFFIX, apple-relay.cloudflare.com, AppleAI //私有云计算
+HOST-SUFFIX, guzzoni.apple.com, AppleAI //Siri 和听写请求
+HOST-SUFFIX, cp4.cloudflare.com, AppleAI //私有云计算
+HOST-SUFFIX, gspe1-ssl.ls.apple.com, AppleAI //基于网络的地区检测
+HOST-SUFFIX, smoot.apple.com, AppleAI //搜索服务，包括 Siri、聚焦、查询、Safari 浏览器、新闻、信息和音乐
+HOST-SUFFIX, apple-relay.akamaized.net, AppleAI //边缘计算
+HOST-SUFFIX, apple-relay.mask.apple-dns.net, AppleAI //域名解析
