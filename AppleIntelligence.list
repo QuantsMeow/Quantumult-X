@@ -2,13 +2,13 @@
 # Update 20251220
 
 
-HOST-SUFFIX, gateway.icloud.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.apple.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.fastly-edge.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.cloudflare.com, AppleIntelligence
-HOST-SUFFIX, guzzoni.apple.com, AppleIntelligence
-HOST-SUFFIX, cp4.cloudflare.com, AppleIntelligence
-HOST-SUFFIX, gspe1-ssl.ls.apple.com, AppleIntelligence
-HOST-SUFFIX, smoot.apple.com, AppleIntelligence
-HOST-SUFFIX, apple-relay.akamaized.net, AppleIntelligence
-HOST-SUFFIX, apple-relay.mask.apple-dns.net, AppleIntelligence
+HOST-SUFFIX, gateway.icloud.com
+HOST-SUFFIX, apple-relay.apple.com
+HOST-SUFFIX, apple-relay.fastly-edge.com
+HOST-SUFFIX, apple-relay.cloudflare.com
+HOST-SUFFIX, guzzoni.apple.com
+HOST-SUFFIX, cp4.cloudflare.com
+HOST-SUFFIX, gspe1-ssl.ls.apple.com
+HOST-SUFFIX, smoot.apple.com
+HOST-SUFFIX, apple-relay.akamaized.net
+HOST-SUFFIX, apple-relay.mask.apple-dns.net
