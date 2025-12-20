@@ -15,4 +15,4 @@ HOST-SUFFIX,cp4.cloudflare.com,AppleAI//私有云计算
 HOST-SUFFIX,gspe1-ssl.ls.apple.com,AppleAI//基于网络的地区检测
 HOST-SUFFIX,smoot.apple.com,AppleAI//搜索服务，包括 Siri、聚焦、查询、Safari 浏览器、新闻、信息和音乐
 HOST-SUFFIX,apple-relay.akamaized.net,AppleAI//边缘计算
-HOST-SUFFIX,apple-relay.mask.apple-dns.net,AppleAI//域名解析
+
