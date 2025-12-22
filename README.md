@@ -26,6 +26,20 @@
 - 首先研究小火箭，但发现小火箭功能不全。
 - 市场调研后，购买了Quantumult-X并开始研究。
 
+搭建个人节点
+市调服务器
+再次确认需求
+研究服务器知识
+选择设置路径
+镜像系统=Ubuntu
+代理协议
+首选=Shadowsocks（配置简单、轻量高效、支持广泛）
+备选=V2Ray（安全隐蔽，配置复杂）
+
+
+
+
+
 ## 项目成果：
 ### 配置文件：
 [MyQx.conf](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/MyQx.conf)
