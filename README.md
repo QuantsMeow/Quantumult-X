@@ -36,7 +36,10 @@
 首选=Shadowsocks（配置简单、轻量高效、支持广泛）
 备选=V2Ray（安全隐蔽，配置复杂）
 
-
+购买服务器
+安装Ubuntu
+开启Shadowsocks
+设置配置
 
 
 
