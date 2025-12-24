@@ -43,6 +43,24 @@
 
 
 
+
+iOS设备应用
+Shadowrocket[$2.99]
+优点：普及度搞，快速上手，价格亲民
+缺点：长期开启会卡顿，且会异常耗电
+
+Quantumult X[9.99]
+优点：精细分流，可玩度高，支持脚本
+缺点：有学习门槛，且价格略高
+
+形象比喻：
+Surge=法拉利
+Quantumult X=宝马
+Shadowrocket=比亚迪
+其他=老头乐
+
+
+
 ## 项目成果：
 ### 配置文件：
 [MyQx.conf](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/MyQx.conf)
