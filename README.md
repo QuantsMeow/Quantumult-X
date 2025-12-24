@@ -49,6 +49,7 @@
 
 ### 分流规则：
 - **AppleAI（Siri调用GPT）**：[AppleAI.list](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/AppleAI.list)
+【AppleAI，更新时间：2025年12月24日18:08:33】
 - **Binance**：[Binance.list](https://raw.githubusercontent.com/QuantsMeow/Quantumult-X/refs/heads/main/Binance.list)
 
 ## 经验心得：
