@@ -2,9 +2,11 @@
 //2025年12月29日————创建分流规则
 //
 //...
+
 HOST,lf16-effectcdn.byteeffecttos-g.com,TikTok
-HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
 HOST,p16-tiktokcdn-com.akamaized.net,TikTok
+HOST,lf16-pkgcdn.pitaya-clientai.com,TikTok
+HOST,api22-normal-c-alisg.tiktokv.com,TikTok
 HOST,trae-api-sg.mchost.guru,TikTok
 HOST-SUFFIX,bytedapm.com,TikTok
 HOST-SUFFIX,bytegecko-i18n.com,TikTok
