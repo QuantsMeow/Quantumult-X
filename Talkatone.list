@@ -1,0 +1,31 @@
+// ==========================================
+// [Talkatone & AdsFree 综合优化版]
+// 作者：喵大人
+// 辅助：Monica & gemini-3-flash-preview
+// 更新日期：2026年1月9日
+// 说明：请确保 Quantumult X 中已创建名为 Talkatone 的策略组
+// ==========================================
+
+// 核心通信，确保登录与通话
+
+// Talkatone 主域名及 API 服务
+HOST-SUFFIX,talkatone.com,Talkatone
+// Talkatone 短链接与备用 API
+HOST-SUFFIX,tktn.at,Talkatone
+// Talkatone 区域节点 API
+HOST-SUFFIX,tktn.be,Talkatone
+// 关键字兜底匹配
+HOST-KEYWORD,talkatone,Talkatone
+
+// 核心语音服务器 IP 段 (VoIP 数据传输)
+IP-CIDR,50.117.27.0/24,Talkatone,no-resolve
+IP-CIDR,69.46.75.0/24,Talkatone,no-resolve
+IP-CIDR,205.164.56.0/24,Talkatone,no-resolve
+IP-CIDR,63.251.124.0/24,Talkatone,no-resolve
+
+// 亚马逊 IP 检测服务，Talkatone 用其校验用户是否在支持的地区
+HOST,checkip.amazonaws.com,Talkatone
+
+// Tenor GIF 动图库，用于聊天时加载动图
+HOST-SUFFIX,tenor.com,Talkatone
+
