@@ -1,3 +1,13 @@
+// Apple Intellience 调用 ChatGPT 时需要的代理规则
+// 2026年1月9日————建立规则
+// 
+// 2026年1月9日————优化规则
+// 
+// 2026年1月9日————发现问题，如果全方位代理，那么iCould会占用大量流量上传照片文件。
+// 
+// 2026年1月8日————放弃使用，规则设置好之后近一个月时间，几乎从未使用过这个功能，权衡之后决定放弃使用Apple AI，决定性的因素是Gemini的语音聊天功能已经足够好用，不需要Siri的辅助了。
+// 
+// 
 HOST-SUFFIX,gateway.icloud.com,AppleAI
 HOST-SUFFIX,apps.mzstatic.com,AppleAI
 HOST-SUFFIX,apple-relay.apple.com,AppleAI
