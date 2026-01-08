@@ -41,3 +41,13 @@ HOST-SUFFIX,mobilefuse.com,AdsFree
 
 // 拦截 Tappx 广告分发平台，在上述列表中属于相对小众的广告网络
 HOST-SUFFIX,tappx.com,AdsFree
+
+// Smaato 移动广告 SDK
+HOST,sdk-files.smaato.net,AdsFree
+
+// Criteo 广告追踪
+HOST,gum.criteo.com,AdsFree
+
+// Taboola 广告信标
+HOST,beacon.taboola.com,AdsFree
+
