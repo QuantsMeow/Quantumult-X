@@ -3,7 +3,7 @@
 // 辅助：Monica & Gemini 3 Flash
 // 说明：广告拦截规则集
 // 
-// 2026年1月9日————创建文件，源于Talkatone分流规则
+// 2026年1月9日————创建文件，针对Talkatone建立专项分流规则
 // 
 // 
 // 排序逻辑（按出现频率从高到低）：
@@ -11,6 +11,9 @@
 // 2. 第二梯队 (Amazon, InMobi, Kochava)：在北美区 App 中非常活跃。
 // 3. 第三梯队 (Chartboost, PubMatic 等)：属于补充型的广告源。
 // ==========================================
+
+
+// ==================Talkatone建立专项分流规则======================
 
 // 拦截谷歌 DoubleClick 广告引擎，这是全球覆盖最广、出现频率最高的广告来源
 HOST-SUFFIX,googleads.g.doubleclick.net,AdsFree
