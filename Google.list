@@ -1,1 +1,466 @@
 
+
+// 规则正文开始
+
+// HOST类型规则：完全匹配指定域名
+HOST,clientservices.googleapis.com,Google        // Google API客户端服务
+HOST,crl.pki.goog,Google                         // Google证书吊销列表
+HOST,fonts.googleapis.com,Google                 // Google字体服务
+HOST,fonts.gstatic.com,Google                    // Google字体静态资源
+HOST,mtalk.google.com,Google                     // Google移动推送服务
+HOST,ocsp.pki.goog,Google                        // Google证书状态协议
+HOST,redirector.c.bigcache.googleapis.com,Google // Google API大缓存重定向
+HOST,redirector.gvt1.com,Google                  // Google视频重定向服务
+HOST,safebrowsing-cache.google.com,Google        // 安全浏览缓存服务
+HOST,safebrowsing.googleapis.com,Google          // 安全浏览API
+HOST,translate.googleapis.com,Google             // 翻译API服务
+HOST,voice.telephony.goog,Google                 // Google语音电话服务
+HOST,www.googleapis.com,Google                   // Google主要API入口
+HOST,lens.l.google.com,Google                    // Google Lens图像识别服务
+
+// HOST-SUFFIX类型规则：匹配域名后缀（包含子域名）
+HOST-SUFFIX,0emm.com,Google                      // Google相关服务域名
+HOST-SUFFIX,1e100.net,Google                     // Google服务器网络标识
+HOST-SUFFIX,1ucrs.com,Google                     // Google服务域名
+HOST-SUFFIX,265.com,Google                       // Google旗下网站
+HOST-SUFFIX,2mdn-cn.net,Google                   // Google广告服务中国节点
+HOST-SUFFIX,2mdn.net,Google                      // Google广告服务
+HOST-SUFFIX,466453.com,Google                    // Google服务域名
+HOST-SUFFIX,abc.xyz,Google                       // Alphabet（Google母公司）官网
+HOST-SUFFIX,adgoogle.net,Google                  // Google广告相关
+HOST-SUFFIX,admeld.com,Google                    // Google广告平台
+HOST-SUFFIX,admob-cn.com,Google                  // AdMob中国版（移动广告）
+HOST-SUFFIX,admob.com,Google                     // Google移动广告平台
+HOST-SUFFIX,adsense.com,Google                   // Google网站广告平台
+HOST-SUFFIX,adsensecustomsearchads.com,Google    // 自定义搜索广告
+HOST-SUFFIX,adsenseformobileapps.com,Google      // 移动应用广告
+HOST-SUFFIX,advertisercommunity.com,Google       // 广告主社区
+HOST-SUFFIX,advertiserscommunity.com,Google      // 广告主社区（别名）
+HOST-SUFFIX,adwords-community.com,Google         // AdWords广告社区
+HOST-SUFFIX,adwords.com,Google                   // Google广告平台（旧称AdWords）
+HOST-SUFFIX,adwordsexpress.com,Google            // 简化版广告平台
+HOST-SUFFIX,amp.dev,Google                       // AMP项目官网
+HOST-SUFFIX,ampproject.com,Google                // AMP加速移动页面项目
+HOST-SUFFIX,ampproject.net,Google                // AMP项目网络服务
+HOST-SUFFIX,ampproject.org,Google                // AMP项目组织
+HOST-SUFFIX,android.com,Google                   // Android官方网站
+HOST-SUFFIX,androidify.com,Google                // Android主题定制服务
+HOST-SUFFIX,androidtv.com,Google                 // Android TV服务
+HOST-SUFFIX,angulardart.org,Google               // AngularDart框架官网
+HOST-SUFFIX,api.ai,Google                        // Dialogflow API（原Api.ai）
+HOST-SUFFIX,apigee.com,Google                    // Google API管理平台
+HOST-SUFFIX,app-analytics-services.com,Google    // 应用分析服务
+HOST-SUFFIX,app-measurement-cn.com,Google        // 应用测量服务中国版
+HOST-SUFFIX,app-measurement.com,Google           // Firebase应用测量
+HOST-SUFFIX,app-measurement.net,Google           // 应用测量网络服务
+HOST-SUFFIX,appbridge.ca,Google                  // Google应用桥接服务
+HOST-SUFFIX,appbridge.io,Google                  // 应用桥接IO服务
+HOST-SUFFIX,appbridge.it,Google                  // 应用桥接IT服务
+HOST-SUFFIX,apps5.oingo.com,Google               // Google服务域名（原Oingo）
+HOST-SUFFIX,appspot.com,Google                   // Google App Engine应用托管
+HOST-SUFFIX,apture.com,Google                    // Google相关服务
+HOST-SUFFIX,area120.com,Google                   // Google内部孵化器项目
+HOST-SUFFIX,asp-cc.com,Google                    // Google服务域名
+HOST-SUFFIX,autodraw.com,Google                  // Google AI绘图工具
+HOST-SUFFIX,avail.googleflights.net,Google       // Google航班可用性查询
+HOST-SUFFIX,bandpage.com,Google                  // 音乐人页面服务（Google收购）
+HOST-SUFFIX,baselinestudy.com,Google             // Google基线研究项目
+HOST-SUFFIX,baselinestudy.org,Google             // 基线研究组织
+HOST-SUFFIX,bazel.build,Google                   // Bazel构建工具
+HOST-SUFFIX,bdn.dev,Google                       // Google开发者服务
+HOST-SUFFIX,beacons.gvt2.com,Google              // Google视频信标服务
+HOST-SUFFIX,beacons2.gvt2.com,Google             // 视频信标服务2
+HOST-SUFFIX,beacons3.gvt2.com,Google             // 视频信标服务3
+HOST-SUFFIX,beatthatquote.com,Google             // 金融比较服务（Google收购）
+HOST-SUFFIX,blink.org,Google                     // Blink渲染引擎官网
+HOST-SUFFIX,blog.google,Google                   // Google官方博客
+HOST-SUFFIX,blogblog.com,Google                  // Blogger博客平台
+HOST-SUFFIX,blogger.com,Google                   // Blogger博客服务
+HOST-SUFFIX,brocaproject.com,Google              // Google项目域名
+HOST-SUFFIX,brotli.org,Google                    // Brotli压缩算法官网
+HOST-SUFFIX,bumpshare.com,Google                 // 文件分享服务
+HOST-SUFFIX,bumptop.ca,Google                    // BumpTop桌面软件
+HOST-SUFFIX,bumptop.com,Google                   // BumpTop官网
+HOST-SUFFIX,bumptop.net,Google                   // BumpTop网络服务
+HOST-SUFFIX,bumptop.org,Google                   // BumpTop组织
+HOST-SUFFIX,bumptunes.com,Google                 // 音乐分享服务
+HOST-SUFFIX,c.gle,Google                         // Google短链接服务
+HOST-SUFFIX,campuslondon.com,Google              // Google伦敦园区
+HOST-SUFFIX,capitalg.com,Google                  // Alphabet资本投资部门
+HOST-SUFFIX,certificate-transparency.dev,Google  // 证书透明性项目
+HOST-SUFFIX,certificate-transparency.org,Google  // 证书透明性组织
+HOST-SUFFIX,charlestonroadregistry.com,Google    // Google域名注册机构
+HOST-SUFFIX,chat.gle,Google                      // Google聊天服务短域
+HOST-SUFFIX,chrome.com,Google                    // Chrome浏览器官网
+HOST-SUFFIX,chromebook.com,Google                // Chromebook官网
+HOST-SUFFIX,chromecast.com,Google                // Chromecast设备官网
+HOST-SUFFIX,chromeexperiments.com,Google         // Chrome实验项目
+HOST-SUFFIX,chromeos.dev,Google                  // Chrome OS开发者网站
+HOST-SUFFIX,chromercise.com,Google               // Chrome相关服务
+HOST-SUFFIX,chromestatus.com,Google              // Chrome功能状态跟踪
+HOST-SUFFIX,chromium.org,Google                  // Chromium开源项目
+HOST-SUFFIX,chronicle.security,Google            // Chronicle网络安全公司
+HOST-SUFFIX,chroniclesec.com,Google              // Chronicle安全服务
+HOST-SUFFIX,clickserve.cc-dt.com,Google          // Google广告点击服务
+HOST-SUFFIX,clickserver.googleads.com,Google     // 广告点击服务器
+HOST-SUFFIX,cloudburstresearch.com,Google        // Google云研究项目
+HOST-SUFFIX,cloudfunctions.net,Google            // Google云函数服务
+HOST-SUFFIX,cloudproxy.app,Google                // 云代理应用服务
+HOST-SUFFIX,cloudrobotics.com,Google             // 云机器人服务
+HOST-SUFFIX,cobrasearch.com,Google               // Google搜索测试域名
+HOST-SUFFIX,codespot.com,Google                  // Google代码托管服务
+HOST-SUFFIX,conscrypt.com,Google                 // Conscrypt加密库
+HOST-SUFFIX,conscrypt.org,Google                 // Conscrypt组织
+HOST-SUFFIX,cookiechoices.org,Google             // Cookie选择通知服务
+HOST-SUFFIX,coova.com,Google                     // 网络服务相关
+HOST-SUFFIX,coova.net,Google                     // 网络服务相关
+HOST-SUFFIX,coova.org,Google                     // 网络服务相关
+HOST-SUFFIX,crashlytics.com,Google               // 移动应用崩溃分析（Firebase）
+HOST-SUFFIX,crbug.com,Google                     // Chromium问题跟踪
+HOST-SUFFIX,creativelab5.com,Google              // Google创意实验室
+HOST-SUFFIX,crossmediapanel.com,Google           // 跨媒体面板服务
+HOST-SUFFIX,crr.com,Google                       // Google服务域名
+HOST-SUFFIX,crrev.com,Google                     // Chromium代码审查
+HOST-SUFFIX,cs4hs.com,Google                     // 计算机科学教育项目
+HOST-SUFFIX,dart.dev,Google                      // Dart语言官网
+HOST-SUFFIX,dartlang.org,Google                  // Dart语言组织
+HOST-SUFFIX,dartpad.dev,Google                   // Dart在线编辑器
+HOST-SUFFIX,dartsearch-cn.net,Google             // Dart搜索中国版
+HOST-SUFFIX,dartsearch.net,Google                // Dart搜索服务
+HOST-SUFFIX,data-vocabulary.org,Google           // 数据词汇表标准
+HOST-SUFFIX,dataliberation.org,Google            // 数据解放阵线（数据导出）
+HOST-SUFFIX,debug.com,Google                     // 调试工具服务
+HOST-SUFFIX,debugproject.com,Google              // 调试项目
+HOST-SUFFIX,deepmind.com,Google                  // DeepMind AI公司
+HOST-SUFFIX,deja.com,Google                      // Deja新闻存档服务
+HOST-SUFFIX,deps.dev,Google                      // 依赖项分析服务
+HOST-SUFFIX,deps.info,Google                     // 依赖项信息
+HOST-SUFFIX,devsitetest.how,Google               // 开发者站点测试
+HOST-SUFFIX,dialogflow.com,Google                // Dialogflow对话AI平台
+HOST-SUFFIX,digisfera.com,Google                 // 数字服务相关
+HOST-SUFFIX,digitalassetlinks.org,Google         // 数字资产链接标准
+HOST-SUFFIX,digitalattackmap.com,Google          // 数字攻击地图
+HOST-SUFFIX,doubleclick-cn.net,Google            // DoubleClick广告中国版
+HOST-SUFFIX,doubleclick.com,Google               // DoubleClick广告平台
+HOST-SUFFIX,doubleclick.net,Google               // DoubleClick网络服务
+HOST-SUFFIX,download.qatp1.net,Google            // Google下载服务节点
+HOST-SUFFIX,episodic.com,Google                  // 视频内容服务
+HOST-SUFFIX,fastlane.ci,Google                   // Fastlane持续集成
+HOST-SUFFIX,fastlane.tools,Google                // Fastlane开发工具
+HOST-SUFFIX,feedburner.com,Google                // FeedBurner RSS托管
+HOST-SUFFIX,fflick.com,Google                    // 电影社交网络服务
+HOST-SUFFIX,financeleadsonline.com,Google        // 金融线索服务
+HOST-SUFFIX,firebaseapp.com,Google               // Firebase应用托管
+HOST-SUFFIX,firebaseio.com,Google                // Firebase实时数据库
+HOST-SUFFIX,flutter.dev,Google                   // Flutter跨平台框架
+HOST-SUFFIX,flutterapp.com,Google                // Flutter应用服务
+HOST-SUFFIX,foofle.com,Google                    // Google相关域名（变体）
+HOST-SUFFIX,froogle.com,Google                   // Google购物旧域名
+HOST-SUFFIX,fuchsia.dev,Google                   // Fuchsia操作系统开发者
+HOST-SUFFIX,g-tun.com,Google                     // 网络服务相关
+HOST-SUFFIX,g.cn,Google                          // Google中国短域名
+HOST-SUFFIX,g.co,Google                          // Google官方短链接
+HOST-SUFFIX,g.dev,Google                         // Google开发者短域
+HOST-SUFFIX,g.page,Google                        // Google商家页面短域
+HOST-SUFFIX,gateway.dev,Google                   // API网关开发者服务
+HOST-SUFFIX,gcp.gvt2.com,Google                  // Google云平台视频服务
+HOST-SUFFIX,gcr.io,Google                        // Google容器注册表
+HOST-SUFFIX,gerritcodereview.com,Google          // Gerrit代码审查系统
+HOST-SUFFIX,get.app,Google                       // 应用获取服务
+HOST-SUFFIX,get.dev,Google                       // 开发者资源获取
+HOST-SUFFIX,get.how,Google                       // 教程指南获取服务
+HOST-SUFFIX,get.page,Google                      // 页面获取服务
+HOST-SUFFIX,getbumptop.com,Google                // BumpTop获取服务
+HOST-SUFFIX,getmdl.io,Google                     // Material Design Lite
+HOST-SUFFIX,getoutline.org,Google                // 大纲获取服务
+HOST-SUFFIX,ggoogle.com,Google                   // Google域名变体
+HOST-SUFFIX,gipscorp.com,Google                  // 地理信息服务
+HOST-SUFFIX,gkecnapps.cn,Google                  // Google中国应用服务
+HOST-SUFFIX,globaledu.org,Google                 // 全球教育项目
+HOST-SUFFIX,gmail.com,Google                     // Gmail邮件服务
+HOST-SUFFIX,gmodules.com,Google                  // Google模块服务
+HOST-SUFFIX,go-lang.com,Google                   // Go语言相关
+HOST-SUFFIX,go-lang.net,Google                   // Go语言网络服务
+HOST-SUFFIX,go-lang.org,Google                   // Go语言组织
+HOST-SUFFIX,go.dev,Google                        // Go开发者官网
+HOST-SUFFIX,godoc.org,Google                     // Go文档服务
+HOST-SUFFIX,gogle.com,Google                     // Google域名变体
+HOST-SUFFIX,gogole.com,Google                    // Google域名变体
+HOST-SUFFIX,golang.com,Google                    // Go语言官网
+HOST-SUFFIX,golang.net,Google                    // Go语言网络服务
+HOST-SUFFIX,golang.org,Google                    // Go语言组织
+HOST-SUFFIX,gonglchuangl.net,Google              // 谷歌相关域名（拼音）
+HOST-SUFFIX,gongyichuangyi.net,Google            // 公益创意网络
+HOST-SUFFIX,goo.gl,Google                        // Google短网址服务
+HOST-SUFFIX,googel.com,Google                    // Google域名变体
+HOST-SUFFIX,googil.com,Google                    // Google域名变体
+HOST-SUFFIX,googl.com,Google                     // Google域名变体
+HOST-SUFFIX,google-analytics-cn.com,Google       // 谷歌分析中国版
+HOST-SUFFIX,google-analytics.com,Google          // Google网站分析服务
+HOST-SUFFIX,google-syndication.com,Google        // 内容联合服务
+HOST-SUFFIX,google.ventures,Google               // Google风投部门
+HOST-SUFFIX,googleacquisitionmigration.com,Google // Google收购迁移服务
+HOST-SUFFIX,googleadapis.com,Google              // Google广告API服务
+HOST-SUFFIX,googleadservices-cn.com,Google       // Google广告服务中国版
+HOST-SUFFIX,googleadservices.com,Google          // Google广告服务
+HOST-SUFFIX,googleanalytics.com,Google           // Google分析服务
+HOST-SUFFIX,googleapis-cn.com,Google             // Google API中国版
+HOST-SUFFIX,googleapis.cn,Google                 // Google API中国域名
+HOST-SUFFIX,googleapis.com,Google                // Google API服务
+HOST-SUFFIX,googleapps-cn.com,Google             // Google应用中国版
+HOST-SUFFIX,googleapps.com,Google                // Google应用服务
+HOST-SUFFIX,googlearth.com,Google                // Google地球相关
+HOST-SUFFIX,googleblog.com,Google                // Google官方博客
+HOST-SUFFIX,googlebot.com,Google                 // Google爬虫服务
+HOST-SUFFIX,googlecapital.com,Google             // Google资本服务
+HOST-SUFFIX,googlecert.net,Google                // Google证书服务
+HOST-SUFFIX,googlecnapps.cn,Google               // Google中国应用
+HOST-SUFFIX,googlecode.com,Google                // Google代码托管
+HOST-SUFFIX,googlecommerce.com,Google            // Google商务服务
+HOST-SUFFIX,googlecompare.co.uk,Google           // 商品比较服务（英国）
+HOST-SUFFIX,googledanmark.com,Google             // Google丹麦服务
+HOST-SUFFIX,googledomains.com,Google             // Google域名注册
+HOST-SUFFIX,googlee.com,Google                   // Google域名变体
+HOST-SUFFIX,googleearth.com,Google               // Google地球服务
+HOST-SUFFIX,googlefiber.com,Google               // Google光纤服务
+HOST-SUFFIX,googlefiber.net,Google               // Google光纤网络
+HOST-SUFFIX,googlefinland.com,Google             // Google芬兰服务
+HOST-SUFFIX,googleflights-cn.net,Google          // Google航班中国版
+HOST-SUFFIX,googlemail.com,Google                // Gmail别名
+HOST-SUFFIX,googlemaps.com,Google                // Google地图服务
+HOST-SUFFIX,googlemashups.com,Google             // Google地图 mashup服务
+HOST-SUFFIX,googleoptimize-cn.com,Google         // Google优化工具中国版
+HOST-SUFFIX,googleoptimize.com,Google            // 网站优化工具
+HOST-SUFFIX,googlepagecreator.com,Google         // 网页创建工具
+HOST-SUFFIX,googlephotos.com,Google              // Google相册
+HOST-SUFFIX,googleplay.com,Google                // Google Play商店
+HOST-SUFFIX,googleplus.com,Google                // Google+社交网络
+HOST-SUFFIX,googlescholar.com,Google             // 谷歌学术
+HOST-SUFFIX,googlesource.com,Google              // Google开源代码
+HOST-SUFFIX,googlestore.com,Google               // Google硬件商店
+HOST-SUFFIX,googlesverige.com,Google             // Google瑞典服务
+HOST-SUFFIX,googlesyndication-cn.com,Google      // 内容联合中国版
+HOST-SUFFIX,googlesyndication.com,Google         // 内容联合服务
+HOST-SUFFIX,googletagmanager-cn.com,Google       // 标签管理器中国版
+HOST-SUFFIX,googletagmanager.com,Google          // Google标签管理器
+HOST-SUFFIX,googletagservices-cn.com,Google      // 标签服务中国版
+HOST-SUFFIX,googletagservices.com,Google         // 标签服务
+HOST-SUFFIX,googletraveladservices-cn.com,Google // 旅游广告服务中国版
+HOST-SUFFIX,googletraveladservices.com,Google    // 旅游广告服务
+HOST-SUFFIX,googlevads-cn.com,Google             // 视频广告服务中国版
+HOST-SUFFIX,googleventures.com,Google            // Google风投
+HOST-SUFFIX,googlr.com,Google                    // Google域名变体
+HOST-SUFFIX,goolge.com,Google                    // Google域名变体
+HOST-SUFFIX,gooogle.com,Google                   // Google域名变体
+HOST-SUFFIX,gridaware.app,Google                 // 网格感知应用
+HOST-SUFFIX,gsrc.io,Google                       // Google安全研究
+HOST-SUFFIX,gstatic-cn.com,Google                // Google静态资源中国版
+HOST-SUFFIX,gstatic.cn,Google                    // Google静态资源中国域名
+HOST-SUFFIX,gstatic.com,Google                   // Google静态资源CDN
+HOST-SUFFIX,gstaticcnapps.cn,Google              // 静态资源中国应用
+HOST-SUFFIX,gsuite.com,Google                    // Google Workspace（原G Suite）
+HOST-SUFFIX,gv.com,Google                        // Google视频服务
+HOST-SUFFIX,gvt0.com,Google                      // Google视频传输节点0
+HOST-SUFFIX,gvt1-cn.com,Google                   // 视频传输中国节点1
+HOST-SUFFIX,gvt2-cn.com,Google                   // 视频传输中国节点2
+HOST-SUFFIX,gvt3.com,Google                      // 视频传输节点3
+HOST-SUFFIX,gvt5.com,Google                      // 视频传输节点5
+HOST-SUFFIX,gvt6.com,Google                      // 视频传输节点6
+HOST-SUFFIX,gvt7.com,Google                      // 视频传输节点7
+HOST-SUFFIX,gvt9.com,Google                      // 视频传输节点9
+HOST-SUFFIX,gwtproject.org,Google                // Google Web Toolkit项目
+HOST-SUFFIX,hdrplusdata.org,Google               // HDR+图像数据服务
+HOST-SUFFIX,hey.gle,Google                       // Google短域服务
+HOST-SUFFIX,hindiweb.com,Google                  // 印地语网络服务
+HOST-SUFFIX,howtogetmo.co.uk,Google              // 移动操作指南（英国）
+HOST-SUFFIX,html5rocks.com,Google                // HTML5教程网站
+HOST-SUFFIX,hwgo.com,Google                      // 硬件相关服务
+HOST-SUFFIX,iam.soy,Google                       // Google身份服务
+HOST-SUFFIX,iamremarkable.org,Google             // 女性赋能项目
+HOST-SUFFIX,igoogle.com,Google                   // 个性化首页服务
+HOST-SUFFIX,impermium.com,Google                 // 评论垃圾过滤服务
+HOST-SUFFIX,itasoftware.com,Google               // 机票搜索软件
+HOST-SUFFIX,j2objc.org,Google                    // Java转Objective-C工具
+HOST-SUFFIX,jibemobile.com,Google                // 移动服务相关
+HOST-SUFFIX,kaggle.com,Google                    // 数据科学竞赛平台
+HOST-SUFFIX,kaggle.io,Google                     // Kaggle数据服务
+HOST-SUFFIX,keyhole.com,Google                   // 地图相关服务
+HOST-SUFFIX,keytransparency.com,Google           // 密钥透明性服务
+HOST-SUFFIX,keytransparency.foo,Google           // 密钥透明性测试
+HOST-SUFFIX,keytransparency.org,Google           // 密钥透明性组织
+HOST-SUFFIX,lanternal.com,Google                 // 网络服务相关
+HOST-SUFFIX,like.com,Google                      // 视觉搜索购物网站
+HOST-SUFFIX,madewithcode.com,Google              // 鼓励女性编程项目
+HOST-SUFFIX,material.io,Google                   // Material Design官网
+HOST-SUFFIX,mdialog.com,Google                   // 移动广告服务
+HOST-SUFFIX,meet.new,Google                      // Google Meet短域
+HOST-SUFFIX,mfg-inspector.com,Google             // 制造商检测服务
+HOST-SUFFIX,mobileview.page,Google               // 移动视图页面
+HOST-SUFFIX,monitoring.qpdp1.net,Google          // 监控服务节点
+HOST-SUFFIX,moodstocks.com,Google                // 图像识别服务
+HOST-SUFFIX,near.by,Google                       // 附近地点服务
+HOST-SUFFIX,nest.com,Google                      // Nest智能家居
+HOST-SUFFIX,neverware.com,Google                 // Chrome OS云就绪服务
+HOST-SUFFIX,nomulus.foo,Google                   // 域名注册测试
+HOST-SUFFIX,oasisfeng.com,Google                 // 开发者个人域名
+HOST-SUFFIX,oauthz.com,Google                    // OAuth服务
+HOST-SUFFIX,ok.gle,Google                        // Google短域服务
+HOST-SUFFIX,on.here,Google                       // 位置服务
+HOST-SUFFIX,on2.com,Google                       // 视频压缩技术公司
+HOST-SUFFIX,onefifteen.net,Google                // 医疗健康项目
+HOST-SUFFIX,onefifteen.org,Google                // 医疗健康组织
+HOST-SUFFIX,oneworldmanystories.com,Google       // 多元文化故事项目
+HOST-SUFFIX,opensourceinsight.dev,Google         // 开源洞察开发者版
+HOST-SUFFIX,opensourceinsights.dev,Google        // 开源洞察服务
+HOST-SUFFIX,openthread.io,Google                 // 开源物联网协议
+HOST-SUFFIX,openweave.io,Google                  // 开源物联网框架
+HOST-SUFFIX,orbitera.com,Google                  // 云计费平台
+HOST-SUFFIX,page.link,Google                     // Firebase动态链接
+HOST-SUFFIX,pagespeedmobilizer.com,Google        // 页面移动化工具
+HOST-SUFFIX,pageview.mobi,Google                 // 移动页面视图
+HOST-SUFFIX,panoramio.com,Google                 // 地理位置照片分享
+HOST-SUFFIX,partylikeits1986.org,Google          // Google内部活动网站
+HOST-SUFFIX,paxlicense.org,Google                // Pax许可证组织
+HOST-SUFFIX,picasa.com,Google                    // Picasa照片管理
+HOST-SUFFIX,picasaweb.com,Google                 // Picasa网络相册
+HOST-SUFFIX,picasaweb.net,Google                 // Picasa网络服务
+HOST-SUFFIX,picasaweb.org,Google                 // Picasa组织
+HOST-SUFFIX,picnik.com,Google                    // 在线照片编辑
+HOST-SUFFIX,pittpatt.com,Google                  // 面部识别技术
+HOST-SUFFIX,pixate.com,Google                    // 移动界面设计工具
+HOST-SUFFIX,pki.goog,Google                      // Google公钥基础设施
+HOST-SUFFIX,plus.codes,Google                    // 位置代码服务
+HOST-SUFFIX,polymer-project.org,Google           // Polymer项目官网
+HOST-SUFFIX,polymerproject.org,Google            // Polymer项目组织
+HOST-SUFFIX,postini.com,Google                   // 邮件安全服务
+HOST-SUFFIX,privacysandbox.com,Google            // 隐私沙盒项目
+HOST-SUFFIX,prod-controlbe.floonet.goog,Google   // 生产环境控制后端
+HOST-SUFFIX,prod-databe.floonet.goog,Google      // 生产数据后端
+HOST-SUFFIX,prod.databe.floonet.goog,Google      // 生产数据服务
+HOST-SUFFIX,projectara.com,Google                // 模块化手机项目
+HOST-SUFFIX,projectbaseline.com,Google           // 健康研究项目
+HOST-SUFFIX,publishproxy.com,Google              // 发布代理服务
+HOST-SUFFIX,qagpublic.qatp1.net,Google           // 质量保证公共节点
+HOST-SUFFIX,qgadmin.qcpp1.net,Google             // 管理控制台节点
+HOST-SUFFIX,qiao-cn.com,Google                   // 桥接中国服务
+HOST-SUFFIX,qpx.googleflights.net,Google         // 航班搜索定价服务
+HOST-SUFFIX,qualysapi.qatp1.net,Google           // 安全API节点
+HOST-SUFFIX,qualysguard.qpdp1.net,Google         // 安全防护节点
+HOST-SUFFIX,questvisual.com,Google               // 视觉翻译服务
+HOST-SUFFIX,quickoffice.com,Google               // 移动办公套件
+HOST-SUFFIX,quiksee.com,Google                   // 视频分享服务
+HOST-SUFFIX,recaptcha-cn.net,Google              // reCAPTCHA中国版
+HOST-SUFFIX,recaptcha.net,Google                 // reCAPTCHA验证服务
+HOST-SUFFIX,redhotlabs.com,Google                // 移动应用实验室
+HOST-SUFFIX,redirector.gcpcdn.gvt1.com,Google    // 云CDN重定向
+HOST-SUFFIX,redirector.gvt1.com,Google           // 视频重定向服务
+HOST-SUFFIX,redirector.offline-maps.gvt1.com,Google // 离线地图重定向
+HOST-SUFFIX,redirector.snap.gvt1.com,Google      // Snap重定向服务
+HOST-SUFFIX,registry.google,Google               // Google容器注册表
+HOST-SUFFIX,revolv.com,Google                    // 智能家居中心
+HOST-SUFFIX,ridepenguin.com,Google               // 网络服务相关
+HOST-SUFFIX,run.app,Google                       // Cloud Run应用服务
+HOST-SUFFIX,savethedate.foo,Google               // 活动日期保存测试
+HOST-SUFFIX,saynow.com,Google                    // 语音消息服务
+HOST-SUFFIX,scanservice1.qcpp1.net,Google        // 扫描服务节点
+HOST-SUFFIX,schema.org,Google                    // 结构化数据标准
+HOST-SUFFIX,schemer.com,Google                   // 色彩方案工具
+HOST-SUFFIX,screenwisetrends.com,Google          // 屏幕趋势分析
+HOST-SUFFIX,screenwisetrendspanel.com,Google     // 屏幕趋势面板
+HOST-SUFFIX,shattered.io,Google                  // SHA-1碰撞演示
+HOST-SUFFIX,snapseed.com,Google                  // 照片编辑应用
+HOST-SUFFIX,solveforx.com,Google                 // Google X项目
+HOST-SUFFIX,stadia.dev,Google                    // Stadia云游戏开发者
+HOST-SUFFIX,staging-controlbe.floonet.goog,Google // 测试环境控制后端
+HOST-SUFFIX,staging-databe.floonet.goog,Google   // 测试数据后端
+HOST-SUFFIX,staging.databe.floonet.goog,Google   // 测试数据服务
+HOST-SUFFIX,stcroixmosquito.com,Google           // 蚊子研究项目
+HOST-SUFFIX,stcroixmosquitoproject.com,Google    // 蚊子研究项目官网
+HOST-SUFFIX,studywatchbyverily.com,Google        // Verily健康研究手表
+HOST-SUFFIX,studywatchbyverily.org,Google        // 健康研究手表组织
+HOST-SUFFIX,stxmosquito.com,Google               // 蚊子研究短域
+HOST-SUFFIX,stxmosquitoproject.com,Google        // 蚊子研究项目
+HOST-SUFFIX,stxmosquitoproject.net,Google        // 蚊子研究网络
+HOST-SUFFIX,stxmosquitoproject.org,Google        // 蚊子研究组织
+HOST-SUFFIX,synergyse.com,Google                 // Google Apps培训平台
+HOST-SUFFIX,teachparentstech.org,Google          // 教父母学技术项目
+HOST-SUFFIX,tensorflow.org,Google                // TensorFlow机器学习
+HOST-SUFFIX,tfhub.dev,Google                     // TensorFlow Hub模型库
+HOST-SUFFIX,thecleversense.com,Google            // 情境感知应用
+HOST-SUFFIX,thegooglestore.com,Google            // Google商店官网
+HOST-SUFFIX,thinkquarterly.co.uk,Google          // 思想季刊（英国）
+HOST-SUFFIX,thinkquarterly.com,Google            // 思想季刊
+HOST-SUFFIX,thinkwithgoogle.com,Google           // Google营销洞察
+HOST-SUFFIX,tiltbrush.com,Google                 // VR绘画应用
+HOST-SUFFIX,txcloud.net,Google                   // 腾讯云相关（疑似误收录）
+HOST-SUFFIX,txvia.com,Google                     // 移动支付服务
+HOST-SUFFIX,unfiltered.news,Google               // 新闻多样性工具
+HOST-SUFFIX,urchin.com,Google                    // 网站分析服务（旧版）
+HOST-SUFFIX,useplannr.com,Google                 // 计划工具
+HOST-SUFFIX,usvimosquito.com,Google              // 蚊子研究项目
+HOST-SUFFIX,usvimosquitoproject.com,Google       // 蚊子研究项目官网
+HOST-SUFFIX,v8.dev,Google                        // V8 JavaScript引擎
+HOST-SUFFIX,v8project.org,Google                 // V8项目组织
+HOST-SUFFIX,velostrata.com,Google                // 云迁移服务
+HOST-SUFFIX,verily.com,Google                    // Verily生命科学
+HOST-SUFFIX,verilylifesciences.com,Google        // Verily生命科学公司
+HOST-SUFFIX,verilystudyhub.com,Google            // Verily研究枢纽
+HOST-SUFFIX,verilystudywatch.com,Google          // Verily研究手表
+HOST-SUFFIX,verilystudywatch.org,Google          // 研究手表组织
+HOST-SUFFIX,wallet.com,Google                    // Google钱包
+HOST-SUFFIX,waveprotocol.org,Google              // 波协议组织
+HOST-SUFFIX,waymo.com,Google                     // Waymo自动驾驶
+HOST-SUFFIX,waze.com,Google                      // Waze导航应用
+HOST-SUFFIX,web.app,Google                       // Firebase网络应用
+HOST-SUFFIX,web.dev,Google                       // Web开发者资源
+HOST-SUFFIX,webappfieldguide.com,Google          // Web应用现场指南
+HOST-SUFFIX,webmproject.org,Google               // WebM项目组织
+HOST-SUFFIX,webpkgcache.com,Google               // Web包缓存服务
+HOST-SUFFIX,webrtc.org,Google                    // WebRTC实时通信
+HOST-SUFFIX,weltweitwachsen.de,Google            // 德国商业增长项目
+HOST-SUFFIX,whatbrowser.org,Google               // 浏览器检测服务
+HOST-SUFFIX,widevine.com,Google                  // Widevine数字版权管理
+HOST-SUFFIX,withgoogle.com,Google                // Google合作项目
+HOST-SUFFIX,womenwill.com,Google                 // 女性赋能项目
+HOST-SUFFIX,womenwill.com.br,Google              // 女性赋能巴西站
+HOST-SUFFIX,womenwill.id,Google                  // 女性赋能印尼站
+HOST-SUFFIX,womenwill.in,Google                  // 女性赋能印度站
+HOST-SUFFIX,womenwill.mx,Google                  // 女性赋能墨西哥站
+HOST-SUFFIX,www.destinationurl.com,Google        // 目标URL服务
+HOST-SUFFIX,www.pxcc.com,Google                  // 支付体验中心
+HOST-SUFFIX,x.company,Google                     // Alphabet的X部门
+HOST-SUFFIX,x.team,Google                        // X部门团队
+HOST-SUFFIX,xn--9kr7l.com,Google                 // 谷歌拼音域名（国际化）
+HOST-SUFFIX,xn--9trs65b.com,Google               // 谷歌拼音域名变体
+HOST-SUFFIX,xn--flw351e.com,Google               // 谷歌国际化域名
+HOST-SUFFIX,xn--ggle-55da.com,Google             // 谷歌国际化域名
+HOST-SUFFIX,xn--gogl-0nd52e.com,Google           // 谷歌国际化域名
+HOST-SUFFIX,xn--gogl-1nd42e.com,Google           // 谷歌国际化域名
+HOST-SUFFIX,xn--ngstr-lra8j.com,Google           // Google国际化域名
+HOST-SUFFIX,xn--p8j9a0d9c9a.xn--q9jyb4c,Google  // Google日本国际化域名
+HOST-SUFFIX,xplr.co,Google                       // 探索服务
+HOST-SUFFIX,zukunftswerkstatt.de,Google          // 德国未来工作坊
+HOST-SUFFIX,zynamics.com,Google                  // 软件分析公司
+HOST-SUFFIX,googledrive.com,Google               // Google云端硬盘
+HOST-SUFFIX,googleusercontent.com,Google         // Google用户内容托管
+
+// HOST-KEYWORD类型规则：匹配域名中包含的关键词
+HOST-KEYWORD,appspot,Google                      // 匹配所有包含"appspot"的域名（App Engine）
+HOST-KEYWORD,blogspot,Google                     // 匹配所有包含"blogspot"的域名（Blogger）
+HOST-KEYWORD,gmail,Google                        // 匹配所有包含"gmail"的域名
+HOST-KEYWORD,google,Google                       // 匹配所有包含"google"的域名
+HOST-KEYWORD,recaptcha,Google                    // 匹配所有包含"recaptcha"的域名
+
+// USER-AGENT类型规则：匹配User-Agent字符串
+USER-AGENT,%E4%BA%91%E7%AB%AF%E7%A1%AC%E7%9B%98*,Google  // 匹配"云端硬盘"中文User-Agent（Google云端硬盘应用）
+USER-AGENT,*com.google.Drive*,Google              // 匹配包含"com.google.Drive"的User-Agent（Google Drive应用）
+USER-AGENT,Google.Drive*,Google                   // 匹配以"Google.Drive"开头的User-Agent
+
+// IP-CIDR类型规则：匹配IPv4地址段
+IP-CIDR,172.110.32.0/21,Google                   // Google IP地址段1
+IP-CIDR,173.194.0.0/16,Google                    // Google主要IP地址段
+IP-CIDR,216.73.80.0/20,Google                    // Google IP地址段2
+IP-CIDR,74.125.0.0/16,Google                     // Google IP地址段3
+
+// IP6-CIDR类型规则：匹配IPv6地址段
+IP6-CIDR,2620:120:e000::/40,Google               // Google IPv6地址段
